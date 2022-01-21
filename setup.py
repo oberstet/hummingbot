@@ -51,6 +51,7 @@ def main():
         "aiokafka",
         "appdirs",
         "appnope",
+        "asyncssh",
         "cachetools",
         "certifi",
         "cryptography",
@@ -76,6 +77,7 @@ def main():
         "pre-commit",
         "prompt-toolkit",
         "psutil",
+        "ptpython",
         "pyjwt",
         "pyperclip",
         "python-binance==0.7.5",
@@ -88,12 +90,13 @@ def main():
         "signalr-client-aio",
         "simplejson",
         "six",
-        "sqlalchemy",
+        "sqlalchemy<1.4",
         "tzlocal",
         "ujson",
         "web3",
         "websockets",
         "yarl",
+        "zlmdb",
     ]
 
     cython_kwargs = {
